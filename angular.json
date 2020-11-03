@@ -121,8 +121,13 @@
               "devServerTarget": "baseball:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "baseball"
 }

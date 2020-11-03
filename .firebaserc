@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "baseball-d504a": {
+      "hosting": {
+        "baseball": [
+          "baseball-d504a"
+        ]
+      }
+    }
+  }
+}

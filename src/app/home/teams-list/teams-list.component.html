@@ -1,0 +1,24 @@
+
+<div class="cards-container row">
+    <div class="card col col-sm-3 col-xs-6"  *ngFor="let team of list" data-toggle="modal" data-target="#teamModal" (click)="setSelectedTeam(team)" >
+        <app-card-content [team]="team" ></app-card-content>
+    </div>
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+          </div>
+          <div class="modal-body">
+            <app-card-content [team]="selectedTeam" > </app-card-content>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    
+  </div>

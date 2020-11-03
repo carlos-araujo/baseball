@@ -1,0 +1,8 @@
+<div class="team-container">
+<img class="card-img-top team-logo" [src]="team?.logo" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{team?.name}}</h5>
+      <div class="card-footer">
+        <small class="text-muted"><img class="team-flag" [src]="team?.country?.flag" alt="Card image cap">   {{team?.country?.name}}</small>
+    </div>
+</div>
